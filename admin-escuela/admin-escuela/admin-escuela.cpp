@@ -1,11 +1,15 @@
-// admin-escuela.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include "Programa.hpp"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	std::cout << "!== Bienvenido al sistema, por favor seleccione una opción !==" << std::endl;
+	Programa program(SelectOption);
+	while (program.getAction() != close)
+	{
+		program.executed();
+	}
+	//////////////////////////////////
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

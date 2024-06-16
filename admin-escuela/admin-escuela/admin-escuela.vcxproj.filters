@@ -18,5 +18,13 @@
     <ClCompile Include="admin-escuela.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Programa.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Programa.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

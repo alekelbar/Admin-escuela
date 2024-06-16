@@ -128,6 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="admin-escuela.cpp" />
+    <ClCompile Include="Programa.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Programa.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
